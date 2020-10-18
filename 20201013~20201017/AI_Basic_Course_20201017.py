@@ -105,7 +105,6 @@ for i in range(0,6,1):
     for j in range(1,46,1):
         count = lotto.count(j)
         if count >1:
-            del lotto[i]
+            del lotto[i] #del 하면 범위 줄어짐
             lotto[i]=randint(1,45)
-
 print(lotto)
