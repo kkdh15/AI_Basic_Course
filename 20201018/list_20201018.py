@@ -16,6 +16,9 @@
 # print(queue.pop(0))
 # print(queue)
 
+# print(type(stack))
+# print(type(queue))
+
 # #list comprehension : 코드를 짧게 쓰자
 # list = []
 # for i in range(6):
@@ -29,7 +32,7 @@
 # list3 = [x*y for x in range(1,6,1) for y in range(1,6,1)]
 # print(list3)
 
-#list list 1D -> 2D
+# #list list 1D -> 2D
 # list2D = [[1,2,3],[4,5,6],[7,8,9]]
 # print(list2D)
 
@@ -51,9 +54,9 @@ print(matrix)
 matrix = [[0 for i in range(5)] for j in range(5)] 
 print(matrix)
 
-# #3 얇은 복사 발생 문제
-# matrix=[[0]*5]*5
-# print(matrix)
+# # #3 얇은 복사 발생 문제
+# # matrix=[[0]*5]*5
+# # print(matrix)
 
 num=1
 for i in range(5):

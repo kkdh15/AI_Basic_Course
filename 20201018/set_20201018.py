@@ -14,6 +14,7 @@
 # set3 = {"apple"}
 # set3 = set("apple")
 # print(set3)
+# print(type(set3))
 
 # set4 = set("ant")
 # print(set4)
@@ -23,16 +24,16 @@
 # print(set3 & set4) #교집합
 
 # #추가
-# set5 = set()
-# set5.add(100)
-# set5.add(200)
-# set5.add(300)
-# print(set5)
-# set5.add(200)
-# print(set5)
+set5 = set()
+set5.add(100)
+set5.add(200)
+set5.add(300)
+print(set5)
+set5.add(200)
+print(set5)
 
-# set5.update([400,500,100])
-# print(set5)
+set5.update([400,500,100])
+print(set5)
 
 # #삭제 discard remove 
 # set5.remove(100)
@@ -61,7 +62,7 @@ foods = {'떡볶이':'어묵',
          '라면':'김치',
          '치킨':'맥주',
          '삼겹살':'소주',
-         '파전':'막걸리'}ㅁㅈ
+         '파전':'막걸리'}
 
 while True:
     a=input("음식 이름을 입력하시오: (" + str(list(foods.keys())) + ") : ")
