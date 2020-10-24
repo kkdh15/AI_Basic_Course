@@ -24,16 +24,16 @@
 # print(set3 & set4) #교집합
 
 # #추가
-set5 = set()
-set5.add(100)
-set5.add(200)
-set5.add(300)
-print(set5)
-set5.add(200)
-print(set5)
+# set5 = set()
+# set5.add(100)
+# set5.add(200)
+# set5.add(300)
+# print(set5)
+# set5.add(200)
+# print(set5)
 
-set5.update([400,500,100])
-print(set5)
+# set5.update([400,500,100])
+# print(set5)
 
 # #삭제 discard remove 
 # set5.remove(100)
