@@ -82,7 +82,7 @@ def pow(x=10):
 print(pow(x=20))
 
 #가변길이 파라미터
-#파라미터가 여러개 입력
+#파라미터가 여러개 입력 *
 
 def myprint(*num):
     print(num)
