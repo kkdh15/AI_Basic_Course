@@ -1,28 +1,28 @@
 # ### 생성자 호출 순서###
-# class People:
-#     def __init__(self):
-#         print("People.__init__()")
+class People:
+    def __init__(self):
+        print("People.__init__()")
 
-# class Athlete(People):
-#     def __init__(self):
-#         print("Athlete.__init__()")
-#         super().__init__()
+class Athlete(People):
+    def __init__(self):
+        print("Athlete.__init__()")
+        super().__init__()
 
-# class BaseballPlayer(Athlete):
-#     def __init__(self):
-#         print("BaseballPlayer.__init__()")
-#         super().__init__()
+class BaseballPlayer(Athlete):
+    def __init__(self):
+        print("BaseballPlayer.__init__()")
+        super().__init__()
 
-# if __name__ == "__main__":
-#     people = People()
-#     print('----------------')
+if __name__ == "__main__":
+    people = People()
+    print('----------------')
 
-#     athlete = Athlete()
-#     print('----------------')
+    athlete = Athlete()
+    print('----------------')
 
-#     baseball_player = BaseballPlayer()
+    baseball_player = BaseballPlayer()
 
-# #######Override######
+#######Override######
 # class Animal():
 #     def sound(self):
 #         print("동물소리")

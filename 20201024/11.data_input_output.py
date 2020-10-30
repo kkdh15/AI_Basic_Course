@@ -28,7 +28,7 @@
 #     print(line)
 
 #list -> file
-# names = ['kim/dohyun','mike','david']
+# names = ['kimdohyun','mike','david']
 
 # with open('C:/Users/82109/Desktop/Study/AI Basic Course/20201024/name.txt','w') as file_obj:
 #     for name in names:

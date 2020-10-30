@@ -21,7 +21,7 @@ class Unit():
         pass
 
     def set_hp(self,hp):
-        __hp = hp
+        self.__hp = hp
 
     def get_hp(self):
         print("{}".format(self.__hp))
@@ -55,7 +55,7 @@ class Zealot(Soldier):
 
 class Marine(Soldier):
     def attack(self, unit):
-        unit.__hp = unit.__hp - (8 - unit.defence_level)
+        unit.__hp -= 5
 
 scv1 = Scv()
 scv1.move(100,50)

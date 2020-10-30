@@ -11,6 +11,6 @@ class Node:
 
 print("시작")
 node = Node()
-del node
+#del node
 print("진행중")
 print("프로그램 종료")
