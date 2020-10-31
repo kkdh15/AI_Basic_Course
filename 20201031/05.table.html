@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--table>tr*2>th+td*2-->
+    <table border="1px">
+        <tr>
+            <th>1행 1열</th>
+            <td>1행 2열</td>
+            <td>1행 3열</td>
+        </tr>
+        <tr>
+            <th>2행 1열</th>
+            <td>2행 2열</td>
+            <td>2행 3열</td>
+        </tr>
+    </table>
+    <figure>
+        <figcaption>
+            <p>Table 1.</p>
+        </figcaption>
+        <table border="1">
+            <caption>
+                <h3>자기소개</h3>
+                <p>자기소개를 적으세요</p>
+            </caption>
+            <tr>
+                <colgroup>
+                    <col style ="width:100px">
+                    <col style ="width:100px">
+                    <col style ="width:100px">
+                    <col style ="width:100px">
+                </colgroup>
+                <th>이름</th>
+                <td></td>
+                <td rowspan ="2">연락처</td>
+                <td rowspan ="2"></td>
+            </tr>
+            <tr>
+                <th>주소</th>
+                <td></td>
+            </tr>
+            <tr>
+                <th>자기소개</th>
+                <td colspan = "3">저는 남자입니다.</td>
+            </tr>
+        </table>
+    </figure>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>번호</th>
+                <th>책이름</th>
+                <th>가격</th>
+                <th>판매량</th>
+                <th>판매액</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Python</td>
+                <td>20000</td>
+                <td>100</td>
+                <td>2000000</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
