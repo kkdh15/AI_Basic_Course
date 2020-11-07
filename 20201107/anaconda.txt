@@ -1,0 +1,24 @@
+-아나콘다 설치
+-아나콘다 네비게이터
+
+-아나콘다 프롬프트
+$conda env list // conda 사용하는 환경 사용자
+
+-아나콘다 새로운 환경 만들기
+$conda create -n  pyhon_3.7 python=3.7
+
+-아나콘다 환경 지우기
+$conda remove -n python_3.8 --all
+
+-아나콘다 환경 로그인
+$conda activate python_3.7
+
+-환경 내부에서 파이썬 라이브러리
+$pip list
+
+-폴더 접근
+$cd [폴더path]
+
+-vs code 실행
+$code .
+*절대로 콘솔창을 끄지 마시오
