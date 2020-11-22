@@ -1,0 +1,34 @@
+< 과제 >
+- 11월 28일(토) 제출 -> 수업 시간에 제출
+- 제목 내용 : PPT (내용 설명), 
+	  code(.py, .ipynb 등), 데이터 파일(.csv, .txt)
+
+1. 강유평: 신종 코로나 바이러스 COVID-19 데이터 분석
+https://pinkwink.kr/1274?category=580892
+
+2. 김도현: 시울시민들이 운동을 하지 않는 이유에 대한 분석
+https://pinkwink.kr/1287?category=580892
+
+3. 김성진: 전세계 테러 데이터 분석 (따라하기)
+https://pinkwink.kr/1214?category=580892
+
+4. 김창현: 우리나라 지도그리는 모듈 배포 - 인구소멸위기지역, 여성인구비율 등등
+https://pinkwink.kr/1133
+
+5. 박재광: 서울시 흡연률 데이터에서 연령별 흡연률 데이터 시각화
+https://pinkwink.kr/1288?category=580892 
+
+6. 유소윤: Python seaborn heatmap으로 보는 서울시 구별 범죄현황
+https://pinkwink.kr/1293
+
+7. 최대영: mahotas를 이용한 유사 이미지 찾기
+https://pinkwink.kr/1173?category=580892
+
+8. 정혜옥: 인구 소멸 위기 지역 파악해보기
+https://pinkwink.kr/1009?category=580892
+
+9. 박기현: 네이버 검색어 트렌드 API를 사용해 보죠.. 그리고 타다~
+네이버 검색어 트렌드 API를 사용해 보죠.. 그리고 타다~
+
+
+
